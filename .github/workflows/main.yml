@@ -73,4 +73,5 @@ jobs:
             sudo docker pull mark51/infra_project
             # Остановка всех контейнеров
             sudo docker stop $(sudo docker ps -a -q)
+            # Запускаем свежий контейнер
             sudo docker run --rm -d -p 8000:8000 mark51/infra_project
