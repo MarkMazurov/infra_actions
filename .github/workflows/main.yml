@@ -55,7 +55,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: mark51/infra_project:latest
+          tags: mark51/infra_project
 
   deploy:
     runs-on: ubuntu-latest
